@@ -7,7 +7,9 @@ capstone.ipynb is the main code jupyter notebook for this project. All related w
 
 # Stock Price Prediction Project
 Stock price prediction is always a challenging but attracting task. Various tech- niques have been tried to conquer the market, but few succeed. The key compo- nent for stock price prediction task is to fit a conditional distribution function of stock returns in the context of historical data. And then input updated informa- tion to make a prediction of stock’s return and risk. Based on estimated return and risk, we also need to utilize portfolio optimization to allocate resources on making investment decisions.
+
 The difficulty of such tasks mostly lies in the low signal-to-noise-ratio (SNR) of stock market. Day-by-day transaction in the busy market generates huge amount of data, which is prefect for modern machine learning method. However, it usually takes great effort to extract the valuable part of such data.
+
 In this project, I created a Multi-Precision-Layer (MLP) model with a state- of-art technique, the DPP optimization layer1, for stock price prediction. The trained model uses Microsoft open source qlib Alpha158 dataset2.
 
 # Dataset
